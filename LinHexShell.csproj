@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- 其他资源文件 -->
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Management" Version="8.0.0" />
+	</ItemGroup>
+</Project>
